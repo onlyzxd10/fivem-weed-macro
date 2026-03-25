@@ -9,9 +9,9 @@ R::  ; Start Key
 running := true
 while (running) {
 
-    Send, {3 down}
+    Send, {e down}
     Sleep, 50
-    Send, {3 up}
+    Send, {e up}
 
     Sleep, 30000
 }
