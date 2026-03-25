@@ -4,8 +4,8 @@ SendMode Input
 
 running := false
 
-; BAŞLAT
-O::
+; >>> CHANGE THIS KEY <<<
+R::  ; Start Key
 running := true
 while (running) {
 
@@ -17,8 +17,8 @@ while (running) {
 }
 return
 
-; DURDUR
-F10::
+; >>> CHANGE THIS KEY <<<
+I::  ; Stop Key
 running := false
 return
 
